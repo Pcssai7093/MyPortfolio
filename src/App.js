@@ -26,10 +26,10 @@ function App() {
           <Router exact path="/MyPortfolio">
           <About/>
           </Router>
-          <Router exact path="/work">
+          <Router exact path="/MyPortfolio/work">
           <Work/>
           </Router>
-          <Router exact path="/contact">
+          <Router exact path="/MyPortfolio/contact">
           <Contact/>
           </Router>
           <Router exact path="/loader">
