@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/Parent/Parent";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router,HashRouter as Router1, Link, Route, Switch } from "react-router-dom";
 import Work from "./Components/Work/Work";
 import Contact from "./Components/Contact/Contact";
 import Loader from "./Components/Loader/Loader";
@@ -19,17 +19,17 @@ function App() {
   },[]);
 
   return (
-    <Router>
+    <Router1>
     {flag?<div>
     <Navbar/>
       <Switch>
-          <Router exact path="/MyPortfolio">
+          <Router exact path="/">
           <About/>
           </Router>
-          <Router exact path="/MyPortfolio/work">
+          <Router exact path="/work">
           <Work/>
           </Router>
-          <Router exact path="/MyPortfolio/contact">
+          <Router exact path="/contact">
           <Contact/>
           </Router>
           <Router exact path="/loader">
@@ -37,7 +37,7 @@ function App() {
           </Router>
       </Switch>
         </div>:<Loader/>}
-    </Router>
+    </Router1>
   );
 }
 

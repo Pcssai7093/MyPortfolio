@@ -10,13 +10,13 @@ function Navbar() {
   const path = useLocation().pathname;
   let color="";
   let [about, work, contact] = ["", "", ""];
-  if (path === "/MyPortfolio") {
+  if (path === "/") {
     about = "active";
     color="one";
-  } else if (path === "/MyPortfolio/work") {
+  } else if (path === "/work") {
     work = "active";
     color="two";
-  } else if (path === "/MyPortfolio/contact") {
+  } else if (path === "/contact") {
     contact = "active";
     color="three";
   }
@@ -26,13 +26,13 @@ function Navbar() {
         <GlobalStyle2 />
         <div className={`${color} header`} ></div>
       <div className="Navbar">
-        <Link to="/MyPortfolio" className={`${about} link`}>
+        <Link to="/" className={`${about} link`}>
           About
         </Link>
-        <Link to="/MyPortfolio/work" className={work}>
+        <Link to="/work" className={work}>
           Work
         </Link>
-        <Link to="/MyPortfolio/contact" className={contact}>
+        <Link to="/contact" className={contact}>
           Contact
         </Link>
       </div>
