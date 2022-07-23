@@ -54,4 +54,19 @@ export const GlobalStyle2=createGlobalStyle`
     .header.three,.footer.three{
         background-color: rgb(66,87,162);
     }
+    .contact{
+        /* position:fixed; */
+        /* right: 0px; */
+        /* bottom:100px; */
+        /* float: right; */
+        /* padding-bottom: 200px;
+         */
+        /* margin-bottom: 200px; */
+        margin-top: 10px;
+        transform: rotate(-2deg);
+        /* text-align: right; */
+    }
+    .contact a{
+        /* float:right; */
+    }
 `

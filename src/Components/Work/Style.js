@@ -5,18 +5,19 @@ body{
 }
 
 .cont{
-    padding-top: 200px;
+    padding-top: 250px;
     text-align:center;
 }
 
 .work-wrap{
-    width:50%;
+    width:80%;
     margin:0 auto;
     border: 2px solid rgb(66,87,162);
     transform: rotate(2deg);
-    padding: 20px 0;
+    /* padding: 0px 0; */
     background-color:rgb(66,87,162) ;
     margin-bottom: 15px;
+    /* border-radius: 10px; */
 }
 
 .work-wrap:hover{
@@ -36,11 +37,11 @@ body{
 
 .work{
     width:70%;
-    padding: 5px;
+    /* padding: 5px; */
     color:white;
     background-color: rgb(66,87,162);
     margin: 0 auto;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 
