@@ -1,11 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-    .Section{
+   body{
+    /* background-image:url("./t1.png"); */
+    /* background-color: red; */
+   }
+   .Section{
         text-align: center;
         width:100vw;
         height:100vh;
-        background-color: rgb(237,245,224);
+        /* background-color: rgb(237,245,224); */
         color:rgb(66,87,162);
         display: flex;
         flex-direction: column;

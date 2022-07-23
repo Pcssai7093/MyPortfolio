@@ -49,10 +49,10 @@ export const GlobalStyle2=createGlobalStyle`
         background-color: rgb(66,87,162);
     }
     .header.two,.footer.two{
-        background-color: rgb(66,87,162);
+        background-color: #02886f;
     }
     .header.three,.footer.three{
-        background-color: rgb(66,87,162);
+        background-color: #f15500 ;
     }
     .contact{
         /* position:fixed; */
