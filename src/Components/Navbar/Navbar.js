@@ -10,7 +10,7 @@ function Navbar() {
   const path = useLocation().pathname;
   let color="";
   let [about, work, contact] = ["", "", ""];
-  if (path === "/") {
+  if (true) {
     about = "active";
     color="one";
   } else if (path === "/work") {
