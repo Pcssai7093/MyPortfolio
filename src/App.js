@@ -23,7 +23,7 @@ function App() {
     {flag?<div>
     <Navbar/>
       <Switch>
-          <Router exact path="/MyPortfolio/">
+          <Router exact path="/MyPortfolio">
           <About/>
           </Router>
           <Router exact path="/work">
