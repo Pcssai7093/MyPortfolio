@@ -1,7 +1,21 @@
-.Link{
-    color:red;
+.menu{
+    /* z-index: 2; */
+    position: fixed;
+    width: 100%;
+    bottom:100px;
+    text-align: center;
+    background-color: black;
+
+}
+.menu a{
+    padding: 0px 30px;
+   text-decoration: none;
+   color: white;
 }
 
-.Link.active{
-    color:black;
+.menu a.active{
+    /* border-radius: 100px; */
+    height: 100%;
+    background-color: white;
+    color: black;
 }
